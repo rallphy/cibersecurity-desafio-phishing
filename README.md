@@ -5,6 +5,20 @@ https://www.kali.org/docs/wsl/wsl-preparations/
 
 Abaixo seguem os testes realizados em minha máquina. ->
 
+O WSL instala a versão 'mínima' do Kali, então é necessário instalar a ferramente ```setoolkit```manualmente.
+
+Utilize: git clone https://github.com/trustedsec/social-engineer-toolkit.git dentro do terminal do Kali.
+
+Este comando criará um diretório chamado social-engineer-toolkit no seu diretório atual.
+
+Entre no diretório que acabou de ser criado: cd social-engineer-toolkit
+
+Execute o script de instalação: sudo python3 setup.py install
+
+Este comando instalará o Setoolkit no seu sistema.
+
+Em seguida, utilize ```sudo setoolkit```para iniciar o programa ou siga o processo abaixo:
+
 # Phishing para captura de senhas do Facebook
 
 ### Ferramentas
