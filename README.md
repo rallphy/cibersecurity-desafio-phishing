@@ -5,15 +5,23 @@ https://www.kali.org/docs/wsl/wsl-preparations/
 
 Abaixo seguem os testes realizados em minha máquina. ->
 
-O WSL instala a versão 'mínima' do Kali, então é necessário instalar a ferramente ```setoolkit```manualmente.
+O WSL instala a versão 'mínima' do Kali, então é necessário instalar a ferramente ```setoolkit```manualmente. Faça como aseguir:
 
-Utilize: git clone https://github.com/trustedsec/social-engineer-toolkit.git dentro do terminal do Kali.
+Abra um terminal e execute os seguintes comandos: ```sudo apt update``` e ```sudo apt full-upgrade -y```
+
+O comando apt update atualiza a lista de pacotes disponíveis. O comando apt full-upgrade atualiza os pacotes instalados para suas versões mais recentes, incluindo a remoção de pacotes obsoletos. O -y confirma automaticamente as ações, economizando tempo.
+
+Instalar as dependências:
+
+O Setoolkit depende de várias outras ferramentas e bibliotecas para funcionar corretamente. Instale as dependências usando o seguinte comando: ```sudo apt install git python3 python3-pip python3-requests libapache2-mod-php -y```
+
+Utilize: ```git clone https://github.com/trustedsec/social-engineer-toolkit.git``` dentro do terminal do Kali.
 
 Este comando criará um diretório chamado social-engineer-toolkit no seu diretório atual.
 
-Entre no diretório que acabou de ser criado: cd social-engineer-toolkit
+Entre no diretório que acabou de ser criado: ```cd social-engineer-toolkit```
 
-Execute o script de instalação: sudo python3 setup.py install
+Execute o script de instalação: ```sudo python3 setup.py install```
 
 Este comando instalará o Setoolkit no seu sistema.
 
