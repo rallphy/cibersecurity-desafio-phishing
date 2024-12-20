@@ -1,3 +1,9 @@
+# GRANDE NOTA:
+
+### Apesar de gerar o IP e acessar a página fake, não pude obter os mesmos resultados dos teste, pois o WSL tem rede diferente da internet.
+
+### Decidi por não encontrar forma de fazer o WSL usar a mesma rede doméstica da Internet
+
 Este teste foi feito utilizando o Kali-Linux em WSL2 (Windows Subsystem Linux 2).
 
 Se deseja rodar/instalar Linux em seu ambiente Windows sem ferramentas de virtualização, como Virtualbox, é só seguir o link:
