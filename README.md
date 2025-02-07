@@ -4,7 +4,7 @@
 
 ### Decidi por não encontrar forma de fazer o WSL usar a mesma rede doméstica da Internet
 
-### EDIT: talvez o erro sej por outro motivo, pois os links 'criar conta' e 'esqueci senha' funcionam, ou seja, levam à página oficial. Talvez o problema seja no botão 'login' da página fake.
+### EDIT: talvez o erro seja por outro motivo, pois os links 'criar conta' e 'esqueci senha' funcionam, ou seja, levam à página oficial. Talvez o problema seja no botão 'login' da página fake.
 
 Este teste foi feito utilizando o Kali-Linux em WSL2 (Windows Subsystem Linux 2).
 
